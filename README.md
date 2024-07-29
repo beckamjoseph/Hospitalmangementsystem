@@ -1,17 +1,19 @@
-University Management System
+**University Management System**
 
 This Java application simulates a university management system login and dashboard, showcasing basic GUI elements and OOP principles.
 
-Object-Oriented Programming (OOP) Principles:
-
+**Object-Oriented Programming (OOP) Principles:**
 Encapsulation: Data (username, password) is encapsulated within the Login class, and methods (actionPerformed) control access and manipulation.
 Inheritance: The Project and university classes inherit from JFrame, providing a common foundation for window management.
 Polymorphism: The actionPerformed method in both Login and Project exhibits polymorphism, handling button clicks differently in each class.
-Java Swing:
+
+**Java Swing:**
 
 Extensive use of Java Swing components like JFrame, JLabel, JTextField, JPasswordField, JButton, JMenuBar, and JMenuItem to create the graphical user interface.
 ImageIcon and Image classes are employed for loading and scaling images.
-Application Algorithm:
+
+
+**Application Algorithm:**
 
 Launch: The university class initializes, displays a splash screen animation using a separate thread (t), and then transitions to the login screen (Login object).
 Login:
